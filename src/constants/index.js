@@ -27,6 +27,16 @@ import {
   dcc,
   kelhel,
   microverse,
+  cplus,
+  dart,
+  python,
+  mongodb,
+  flutter,
+  raydiex,
+  curemd,
+  edu
+  
+  
 } from '../assets';
 
 export const navLinks = [
@@ -54,7 +64,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'SEM Management',
     icon: ux,
   },
   {
@@ -65,99 +75,81 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
-    name: 'JavaScript',
-    icon: javascript,
-  },
-  {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
-    name: 'React JS',
+    name: 'React',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
+  
   {
     name: 'Node JS',
     icon: nodejs,
   },
+
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Flutter',
+    icon: flutter,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'Dart',
+    icon: dart,
   },
   {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'MongoDB',
+    icon: mongodb,
+  },
+
+  {
+    name: 'HTML5',
+    icon: html,
+  },
+
+  {
+    name: 'C++',
+    icon: cplus,
   },
   {
-    name: 'git',
-    icon: git,
+    name: 'Python',
+    icon: python,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+
 ];
+
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Game Developer Intern',
+    company_name: 'Raydiex',
+    icon: raydiex,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'July 2021 - Aug 2021',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Electronic Health Records Intern',
+    company_name: 'CureMD',
+    icon: curemd,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'June 2022 - Aug 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Technical Content Intern',
+    company_name: 'Educative',
+    icon: edu,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'June 2023 - Aug 2023',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'SEM technician',
+    company_name: 'Player.me',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: ' Aug 2021 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'WineDine',
+    description: 'A Food delivery application made in Flutter',
     tags: [
       {
         name: 'react',
@@ -173,14 +165,14 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
+    repo: 'https://github.com/faizanmalik2023/WineDine',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'FlashChat',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A Chatroom made with Firebase and Flutter with customizable themes',
     tags: [
       {
         name: 'react',
@@ -196,13 +188,13 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
+    repo: 'https://github.com/faizanmalik2023/Flashchat',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Clima Flutter',
+    description: 'A weather app inspored by iOS weather app working with WeatherAPI',
     tags: [
       {
         name: 'nextjs',
@@ -218,13 +210,13 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
+    repo: 'https://github.com/faizanmalik2023/Clima-',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'FederatedVessel',
+    description: `A Federated Learning framework for Retinal Vessel Segmentation`,
     tags: [
       {
         name: 'nextjs',
@@ -240,14 +232,14 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
+    repo: 'https://github.com/faizanmalik2023/FYP',
     demo: 'https://movie-metro.netlify.app/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Potatos',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'A chilled out version of twitter and facebook where users can follow, like and comment each other',
     tags: [
       {
         name: 'nextjs',

@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Welcome to my digital space! I'm Faizan, a Computer Science graduate with a zeal for app and web development. My academic journey at FAST equipped me with robust technical skills, from creating games in C# to automation scripts in Python. Beyond my technical endeavors, I am also an expert web content writer and SEM specialist, with over 5 years of industry experience dealing with clients from all over the globe. This website is a window into my projects, professional journey, and the insights I've gained along the way. 
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
